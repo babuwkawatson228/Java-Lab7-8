@@ -1,7 +1,7 @@
 public class Dog extends Mammal implements AnimalMove, AnimalBehaviour {
     private String breed;
 
-    Dog(){
+    public Dog(){
         super();
         breed = "NoBreed";
     }
@@ -42,4 +42,5 @@ public class Dog extends Mammal implements AnimalMove, AnimalBehaviour {
     public void move(Object obj) {
         System.out.println("Dog is moving");
     }
+
 }
