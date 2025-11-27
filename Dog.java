@@ -1,7 +1,7 @@
 public class Dog extends Mammal implements AnimalMove, AnimalBehaviour {
     private String breed;
 
-    public Dog(){
+    Dog(){
         super();
         breed = "NoBreed";
     }
@@ -44,3 +44,4 @@ public class Dog extends Mammal implements AnimalMove, AnimalBehaviour {
     }
 
 }
+
