@@ -1,7 +1,7 @@
 public class Blowfish extends Fish implements AnimalMove, AnimalBehaviour{
     private String fishType;
 
-    Blowfish(){
+    public Blowfish(){
         super();
         fishType = "NoType";
     }
@@ -47,3 +47,4 @@ public class Blowfish extends Fish implements AnimalMove, AnimalBehaviour{
         System.out.println("Blowfish is moving");
     }
 }
+
